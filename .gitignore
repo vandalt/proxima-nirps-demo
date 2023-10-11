@@ -4,6 +4,7 @@
 ### Custom ###
 data/
 venv*/
+*.nc
 
 ### Python ###
 # Byte-compiled / optimized / DLL files

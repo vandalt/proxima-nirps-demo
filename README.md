@@ -2,9 +2,12 @@
 
 Demo for the NIRPS data week.
 
+The examples for the demo are available as Python script (with "percent" ipython cells) and as Jupyter Notebooks (generated with `jupytext`).
+The scripts are in `scripts` and the notebooks are in `notebooks`.
+
 ## Quick look and preprocessing
 
-The first notebook (`notebooks/00_quicklook.py`) simply generates a few plots and performs simple preprocessing.
+The first notebook (`00_quicklook.ipynb`) simply generates a few plots and performs simple preprocessing.
 It also removes some outliers and saves a new RDB file.
 
 ## RV+activity modelling
@@ -16,4 +19,4 @@ but they are still used widely, including by some higher-level packages such as
 
 To install the requirements for this example, use `python -m pip install -r requirements.txt`
 
-The notebook is `notebooks/01_george_radvel.py`
+The notebook is `01_george_radvel.ipynb`

@@ -1,0 +1,9 @@
+numpy
+matplotlib
+astropy
+tqdm
+corner
+arviz
+george
+celerite
+radvel

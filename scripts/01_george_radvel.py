@@ -443,7 +443,7 @@ hnames = [
 
 # %%
 inf_post = inf_data.posterior
-inf_post["gp_explength"] = np.sqrt(np.exp(inf_post["kernel:k1:k2:metric:log_M_0_0"]))
+inf_post["gp_explength"] = np.sqrt(2 * np.exp(inf_post["kernel:k1:k2:metric:log_M_0_0"]))
 inf_post["gp_per"] = np.exp(inf_post["kernel:k2:log_period"])
 inf_post["gp_perlength"] = np.sqrt(0.5 / inf_post["kernel:k2:gamma"])
 
